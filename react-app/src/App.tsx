@@ -4,10 +4,10 @@ import "./App.css";
 import ListGroup from "./components/ListGroup";
 function App() {
 
-  // items = [];
+  let items = ["New York", "San Francisco", "Tokyo", "Londo", "Paris"];
   
   return (
-   <ListGroup/>
+   <ListGroup items= {items} heading = "Cities" />
   );
 }
 
