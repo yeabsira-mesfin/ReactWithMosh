@@ -6,7 +6,7 @@ interface Props {
     heading:string;
     onSelectItem: (item:string) => void;
 }
-const ListGroup = ({items,heading,onSelecetItem}: Props) => {
+const ListGroup = ({items,heading,onSelectItem}: Props) => {
   const [selectedIndex, setSelectedIndex] = useState(-1);
   
  
@@ -22,7 +22,7 @@ const ListGroup = ({items,heading,onSelecetItem}: Props) => {
               className={selectedIndex === index ? 'list-group-item active' : 'list-group-item'}
               key={item}
               onClick={()=> {setSelectedIndex(index)
-                onSelecetItem(item);
+                onSelectItem(item);
               }}
             >
               {item}
