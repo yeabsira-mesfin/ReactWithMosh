@@ -14,7 +14,7 @@ function App() {
   const colors = ['primary', 'secondary', 'success', 'warning'];
   const n = colors.length;
   function handleColor() {
-    
+    Math.floor(Math.random() * n)
     setColor(colors[1])
   }
   return (
