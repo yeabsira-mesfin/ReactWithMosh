@@ -4,6 +4,7 @@ import "./App.css";
 import ListGroup from "./components/ListGroup";
 import Alert from "./components/Alert";
 import Button from "./components/Button";
+import {BsFillCalendarFill} from 'react-icons/bs'
 
 function App() {
 
@@ -25,8 +26,9 @@ function App() {
 {/* {alert && <Alert onClose={() => setAlert(false)}>
 My Alert
 </Alert>}
-  
+   
    <Button  color={color} onClick={()=>setAlert(true)}>Success </Button> */}
+   <BsFillCalendarFill/>
    <ListGroup items= {items} heading = "Cities" onSelectItem = {handleSelecetItem}/>
   </>
   );
