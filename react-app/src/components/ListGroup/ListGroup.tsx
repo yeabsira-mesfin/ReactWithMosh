@@ -32,7 +32,7 @@ const ListGroup = ({items,heading,onSelectItem}: Props) => {
       {items.length === 0 ? (
         <>No item found</>
       ) : (
-        <List className={[classes.listGroup,classes.container].join('')}>
+        <List className={[classes.listGroup,classes.container].join('')} style = {{backgroundColor:'yellow'}}>
           {items.map((item, index) => (
             <ListItem
             active = {index === selectedIndex}
