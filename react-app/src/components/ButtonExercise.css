@@ -1,0 +1,30 @@
+.button {
+    background: cyan;
+    color: darkgreen;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 2rem;
+    border: 0;
+    margin: 1rem;
+    display: block;
+    font-style: italic;
+    font: icon;
+}
+.button:hover{
+    background-color: rgba(0, 255, 255, 0.623);
+    color: blue;
+    transform: rotate(10deg);
+    width: 11rem;
+    height: 3.5rem;
+    
+}
+.like {
+    background: red;
+    display: block;
+}
+button{
+    background:white;
+    border: none;
+    font-size: 20px;
+    display: block;
+}
