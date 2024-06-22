@@ -1,12 +1,13 @@
 import Forms from "./components/Forms"
-
+import FromsUsingStates from "./FromsUsingStates"
 function App() {
 
 
   return (
     <>
      
-    <Forms/>
+    {/* <Forms/> */}
+    <FromsUsingStates/>
     </>
   )
 }
